@@ -1,4 +1,4 @@
-#Model to Predict Relation Between Array of Numbers
+# Model to Predict Relation Between Array of Numbers
 
 We have two variables xs and ys that have an **relation**.
 
@@ -17,7 +17,7 @@ We will try to predict the relation `ys = 2xs -1` with minimum loss as possible.
 
 -----------------------------------------------------------------
 
-#Result
+# Result
 
 The model has predicted `[array([[1.9965848]], dtype=float32), array([-0.98941153], dtype=float32)]`
 
