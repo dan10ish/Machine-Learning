@@ -8,11 +8,11 @@ We have two variables xs and ys that have an **relation**.
 
 The relation between them can be given as:
 
-`ys = 2xs -1`
+`ys = 2xs - 1`
 
 So if you substitute in place of xs as -1 you will get the corresponding value of ys ,i.e., -3
 
-We will try to predict the relation `ys = 2xs -1` with minimum loss as possible.
+We will try to predict the relation `ys = 2xs - 1` with minimum loss as possible.
 
 
 -----------------------------------------------------------------
@@ -21,6 +21,6 @@ We will try to predict the relation `ys = 2xs -1` with minimum loss as possible.
 
 The model has predicted `[array([[1.9965848]], dtype=float32), array([-0.98941153], dtype=float32)]`
 
-Which simply means `ys = 1.9965848xs -0.98941153`
+Which simply means `ys = 1.9965848xs - 0.98941153`
 
-This is very close to the **accurate answer** ,i.e, `ys = 2xs -1`
+This is very close to the **accurate answer** ,i.e, `ys = 2xs - 1`
